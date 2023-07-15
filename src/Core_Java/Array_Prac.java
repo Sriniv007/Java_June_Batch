@@ -1,20 +1,16 @@
 package Core_Java;
 
 public class Array_Prac {
-	//Finding smallest no. in array
-    public static void main(String[] args) {
-        int array[] = {10, 20, 25, 63, 96, 57};
-        int smallest = findSmallestElement(array);
-        System.out.println("Smallest element in the array is: " + smallest);
-    }
+	public static void main(String args[]) {
+	 //1 2 3 4 5
+	// 1   3   5   7   9 +2 Logic = +2
+	
+	//Start = 3, End=15, Logic=+3
+	int no =3;
+	while(no<=15) {
+		System.out.print(no+" " );
+		no = no +3;
+	}
 
-    public static int findSmallestElement(int array[]) {
-        int smallest = array[0];
-        for (int i = 1; i < array.length; i++) {
-            if (array[i] < smallest) {
-                smallest = array[i];
-            }
-        }
-        return smallest;
-    }
+	}
 }
