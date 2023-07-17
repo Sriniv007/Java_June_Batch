@@ -5,19 +5,22 @@ public class Looping {
 	public static void main(String[] args) {
 		Looping pg = new Looping();
 //			pg.find_divisors(120);
-//			pg.count_of_divisors(120);
-//			pg.prime_Numbers(120);
+//			pg.count_of_divisors(120);		
+//			pg.prime_Numbers(100);
 //			pg.reverse_Number(9691);
 //			pg.count_Of_Digits(54738);
-//			pg.sum_Of_Digits(52342);
+			//pg.sum_Of_Digits(52342);
 //			pg.reverse_No(44781);
-		// pg.palindrome(1331);
-		// pg.armstrong(153);
-			pg.armstr(8);
+//			pg.palindrome(1331);
+//			pg.armstrong(153);
+//			pg.realTimeChef(8);
+			//pg.neon_Number(1232);
+			
 			
 		}
-
-	void armstr(int hot_box) {
+	
+	
+	void realTimeChef(int hot_box) {
 		int count = 3;
 		while(count>0) {
 			hot_box = hot_box + hot_box/2;
@@ -123,13 +126,15 @@ public class Looping {
 			}
 			div = div + 1;
 		}
-		System.out.println("no of counts values are:" + count);
+		//System.out.println("no of counts values are:" + count);
 		if (count == 0) {
 			System.out.println("prime number...");
 		} else {
 			System.out.println("it is not prime number..");
 		}
 	}
+	
+
 
 	void count_of_divisors(int no) {
 		int div = 2;
@@ -147,7 +152,7 @@ public class Looping {
 
 	void find_divisors(int no) {
 		int div = 2;
-		while (div < 100) {
+		while (div < no) {
 			if (no % div == 0) {
 				System.out.println(div);
 			}
@@ -157,3 +162,21 @@ public class Looping {
 	}
 
 }
+
+
+//Looping Programs:
+//1) 1   1   1   1   1 
+//2) 1   2   3   4   5
+//3) 1   3   5   7   9
+//4) 3   6   9   12  15
+//5) Multiples of 3 and 5
+//6) Multiples of 3 or 5
+//7) Divisors of given number - yes
+//8) Count of Divisors of given number -yes
+//9) Prime Number -yes
+//10) Reverse Printing a number -yes
+//11) Count of Digits -yes
+//12) Sum of Digits -yes
+//13) Reverse the number -yes
+//14) Palindrome -yes
+//15) Armstrong Number
