@@ -6,7 +6,7 @@ public class Looping {
 		Looping pg = new Looping();
 //			pg.find_divisors(120);
 //			pg.count_of_divisors(120);		
-//			pg.prime_Numbers(100);
+			pg.prime_Numbers(100);
 //			pg.reverse_Number(9691);
 //			pg.count_Of_Digits(54738);
 			//pg.sum_Of_Digits(52342);
@@ -125,6 +125,7 @@ public class Looping {
 				count = count + 1;
 			}
 			div = div + 1;
+			no=no+1;
 		}
 		//System.out.println("no of counts values are:" + count);
 		if (count == 0) {
