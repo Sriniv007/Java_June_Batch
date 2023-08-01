@@ -4,15 +4,15 @@ public class Looping_Practice2 {
 
 	public static void main(String[] args) {
 		 Looping_Practice2 rd = new Looping_Practice2();
-		 //rd.Fibo();   				  //1
-		 //rd.print_fibo_without_third(); //2
-		 //rd.print_reverse(1234);  	  //3
-		 //rd.reverse_a_no(1234);		  //4
-		 //rd.find_palindrome(12321);	  //5
-		 //rd.find_common_divisors(100,120); //6
-		 //rd.find_greatest_common_divisor(100,120); //7
-		 //rd.find_least_common_multiple(4,10);//8
-		 //rd.BintoDec(101);
+		 //rd.Fibo();   				  //21
+		 //rd.print_fibo_without_third(); //22
+		 //rd.print_reverse(1234);  	  //23
+		 //rd.reverse_a_no(1234);		  //24
+		 //rd.find_palindrome(12321);	  //25
+		 //rd.find_common_divisors(100,120); //26
+		 //rd.find_greatest_common_divisor(100,120); //27
+		 //rd.find_least_common_multiple(4,10);//28
+		 //rd.BintoDec(101);		//30
 		 //rd.Count_of_Digits(23456);	
 		 
 	}
