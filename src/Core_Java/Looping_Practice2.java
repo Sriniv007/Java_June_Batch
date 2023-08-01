@@ -13,7 +13,7 @@ public class Looping_Practice2 {
 		 //rd.find_greatest_common_divisor(100,120); //7
 		 //rd.find_least_common_multiple(4,10);//8
 		 //rd.BintoDec(101);
-		 rd.Count_of_Digits(23456);
+		 //rd.Count_of_Digits(23456);	
 		 
 	}
 	
